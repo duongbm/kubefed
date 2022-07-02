@@ -90,6 +90,19 @@ entries:
     - condition: controllermanager.enabled
       name: controllermanager
       repository: https://localhost/
+      version: 0.6.2
+    description: KubeFed helm chart
+    digest: 432ea46335f1f7d836e3c9d0bab6fb7ae71eeb54d0f1cb99c65c9ea3979745d6
+    name: kubefed
+    urls:
+    - https://github.com/duongbm/kubefed/archive/refs/tags/v0.6.2-tag.tar.gz
+    version: 0.6.2
+  - apiVersion: v2
+    created: "2021-01-25T16:48:21.652921408+01:00"
+    dependencies:
+    - condition: controllermanager.enabled
+      name: controllermanager
+      repository: https://localhost/
       version: 0.6.1
     description: KubeFed helm chart
     digest: 432ea46335f1f7d836e3c9d0bab6fb7ae71eeb54d0f1cb99c65c9ea3979745d6
